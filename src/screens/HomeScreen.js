@@ -13,7 +13,19 @@ const HomeScreen = ({ navigation }) => {
           onPress={() => navigation.navigate('Product')}
         />
         </View>
-        <View>
+        <View style={style.container}>
+        <Button
+          title={"Interactive Screen"}
+          onPress={() => navigation.navigate('Interactive')}
+        />
+      </View>
+      <View style={style.container}>
+        <Button
+          title={"Counter Screen"}
+          onPress={() => navigation.navigate('Counter')}
+        />
+      </View>
+        <View style={style.container}>
         <Button
           title={"Student Screen"}
           onPress={() => navigation.navigate('Student')}
